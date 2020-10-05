@@ -1,0 +1,27 @@
+입력
+{ 
+	angle : 0~360 
+	, x : 
+	, y : 
+}
+
+
+출력 
+{ 
+	ballooninfo : {
+		num : 
+		, hitnum :
+		, hit : [
+			{ x : , y : }
+		]
+		, alive : [
+			{ x : , y : }
+		]
+	}
+	, plateinfo : { 
+		num : 
+		, plate : [
+			{ angle : 0~360, x : , y : }
+		]
+	}
+}
